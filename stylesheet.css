@@ -154,8 +154,8 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: #5A735B;
-	background-image: url(../../../../Program%20Files/Adobe/Adobe%20Dreamweaver%20CC%202019/configuration/BuiltIn/AppData/Roaming/Adobe/Dreamweaver%20CC%202019/en_US/Configuration/Temp/Assets/eam1D29.tmp/images/parallax.png);
-	height: 400px;
+	background-image: url();
+	height: 450px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
