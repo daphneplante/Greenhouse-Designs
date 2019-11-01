@@ -208,6 +208,7 @@ footer {
 .footer_column {
 	width: 50%;
 	text-align: center;
+	align-content: center;
 	padding-top: 30px;
 	float: left;
 }
@@ -235,6 +236,13 @@ footer .footer_column p {
 	margin-left: 20px;
 	margin-right: 20px;
 	
+}
+.twitter {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 7%;
+	padding-top: 20px;
 }
 .button {
 	width: 200px;
