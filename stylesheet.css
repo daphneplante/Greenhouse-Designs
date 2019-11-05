@@ -27,7 +27,7 @@ header {
 .logo {
 	color: #F1F2F2;
 	font-weight: 800;
-	text-align: undefined;
+	text-align: center;
 	width: 10%;
 	float: left;
 	margin-top: 15px;
@@ -73,14 +73,14 @@ ul li:hover a {
 }
 /* Hero Section */
 .hero {
-	background-color: #5A735B;
-	background-image: url("assets/greenhaus.png");
+	background-color: #262626;
+	background-image: url("assets/hero06.png");
 	weight: 800;
 	padding-top: 150px;
 	padding-bottom: 150px;
-	background-attachment: fixed;
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 .light {
 	font-weight: bold;
@@ -88,7 +88,7 @@ ul li:hover a {
 }
 .tagline {
 	text-align: center;
-	color: #F1F2F2;
+	color: #9FB59E;
 	margin-top: 4px;
 	font-weight: lighter;
 	text-transform: uppercase;
@@ -157,8 +157,8 @@ ul li:hover a {
 }
 /* Parallax Section */
 .banner {
-	background-color: #5A735B;
-	background-image: url();
+	background-color: #262626;
+	background-image: url("assets/hero02.png");
 	height: 450px;
 	background-attachment: fixed;
 	background-size: cover;
@@ -171,14 +171,15 @@ ul li:hover a {
 	padding-top: 110px;
 	letter-spacing: 2px;
 	margin-top: 0px;
+	font-weight: 800;
 }
 .parallax_description {
-	color: #9FB59E;
+	color: #F1F2F2;
 	text-align: right;
 	padding-right: 100px;
 	width: 30%;
 	float: right;
-	font-weight: lighter;
+	font-weight: 600;
 	line-height: 23px;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -321,7 +322,7 @@ footer {
 		width: 100%;
 		position: static;
 	}
-	header nav ul {
+	/*header nav ul {
 	}
 	nav ul li {
 		margin-top: 0px;
@@ -330,7 +331,7 @@ footer {
 		margin-left: 0px;
 		width: 100%;
 		text-align: center;
-	}
+	}*/
 	.text_column {
 		width: 100%;
 		text-align: justify;
@@ -402,18 +403,15 @@ footer {
 		margin-left: 0px;
 		color: #F1F2F2;
 	}
-	.container header nav {
+/*	.container header nav {
 		margin-top: 0px;
 		margin-right: 0px;
 		margin-bottom: 50%;
 		margin-left: 0px;
 		width: 100%;
-		float: none;
-		overflow: auto;
-		display: inline-block;
 		background: #262626;
 	}
-	header nav ul {
+/*	header nav ul {
 		padding: 0px;
 		float: none;
 	}
@@ -426,7 +424,7 @@ footer {
 		text-align: center;
 		padding-top: 8px;
 		padding-bottom: 8px;
-	}
+	}*/
 	.text_column {
 		width: 100%;
 		text-align: left;
