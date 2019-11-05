@@ -99,22 +99,21 @@ ul li:hover a {
 	text-align: justify;
 	font-weight: lighter;
 	line-height: 25px;
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 15%;
+	padding-right: 15%;
 	color: #F1F2F2;
 }
 .about {
 	padding-left: 25px;
 	padding-right: 25px;
-	padding-top: 35px;
+	padding-top: 15px;
 	display: inline-block;
 	background-color: #262626;
-	margin-top: 0px;
 }
 .about h2{
 	text-align: center;
 	color: #5A735B;
-	letter-spacing: 4px;
+	letter-spacing: 5px;
 	font-weight: 800;
 }
 
