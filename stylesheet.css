@@ -96,6 +96,7 @@ ul li:hover a {
 }
 /* About Section */
 .text_column {
+	width: auto;
 	text-align: justify;
 	font-weight: lighter;
 	line-height: 25px;
@@ -107,7 +108,6 @@ ul li:hover a {
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-top: 15px;
-	display: inline-block;
 	background-color: #262626;
 }
 .about h2{
