@@ -156,9 +156,9 @@ ul li:hover a {
 }
 /* Parallax Section */
 .banner {
+	height: 450px;
 	background-color: #262626;
 	background-image: url("assets/hero02.png");
-	height: 450px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -376,8 +376,12 @@ footer {
 		text-align: center;
 	}
 	.banner {
+		height: 450px;
 		background-color: #262626;
-		background-image: none;
+		background-image: url("assets/hero02.png");
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 	.tagline {
 		margin-top: 20px;
@@ -388,6 +392,11 @@ footer {
 		padding-right: 10px;
 		line-height: 22px;
 		text-align: center;
+	}
+	.hero {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 	}
 }
 
@@ -401,6 +410,11 @@ footer {
 		margin-bottom: 0px;
 		margin-left: 0px;
 		color: #F1F2F2;
+	}
+	.hero {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 	}
 /*	.container header nav {
 		margin-top: 0px;
@@ -495,6 +509,12 @@ footer {
 	.banner {
 		padding-left: 20px;
 		padding-right: 20px;
+		height: 450px;
+		background-color: #262626;
+		background-image: url("assets/hero02.png");
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 	.footer_column {
 		width: 100%;
@@ -526,5 +546,16 @@ footer {
 	.banner {
 		margin-top: 0px;
 		padding-top: 0px;
+		height: 450px;
+		background-color: #262626;
+		background-image: url("assets/hero02.png");
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.hero {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 	}
 }
