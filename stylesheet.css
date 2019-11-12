@@ -78,7 +78,7 @@ ul li:hover a {
 	weight: 800;
 	padding-top: 150px;
 	padding-bottom: 150px;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
