@@ -78,7 +78,7 @@ ul li:hover a {
 	weight: 800;
 	padding-top: 150px;
 	padding-bottom: 150px;
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -158,7 +158,7 @@ ul li:hover a {
 .banner {
 	height: 450px;
 	background-color: #262626;
-	background-image: url("assets/hero06.png");
+	background-image: url("assets/hero06big.png");
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
