@@ -74,7 +74,7 @@ ul li:hover a {
 /* Hero Section */
 .hero {
 	background-color: #262626;
-	background-image: url("assets/hero06.png");
+	background-image: url("assets/greenhaus.png");
 	weight: 800;
 	padding-top: 150px;
 	padding-bottom: 150px;
@@ -158,7 +158,7 @@ ul li:hover a {
 .banner {
 	height: 450px;
 	background-color: #262626;
-	background-image: url("assets/hero02.png");
+	background-image: url("assets/hero06.png");
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
