@@ -9,6 +9,30 @@ body {
 	margin-left: 0px;
 	font-style: normal;
 }
+
+/* Links */
+a:link {
+    color: #9FB59E;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #9FB59E;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #5A735B;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #F1F2F2;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
 /* Container */
 .container {
 	width: 90%;
@@ -17,6 +41,8 @@ body {
 	height: 1000px;
 	background-color: #262626;
 }
+
+
 /* Navigation */
 header {
 	width: 100%;
@@ -71,6 +97,8 @@ ul li:hover a {
 	margin-left: 0px;
 	letter-spacing: 4px;
 }
+
+
 /* Hero Section */
 .hero {
 	background-color: #262626;
@@ -78,7 +106,7 @@ ul li:hover a {
 	weight: 800;
 	padding-top: 150px;
 	padding-bottom: 150px;
-	background-size: cover;
+	background-size: auto;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -94,6 +122,8 @@ ul li:hover a {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
+
+
 /* About Section */
 .text_column {
 	width: auto;
@@ -117,7 +147,8 @@ ul li:hover a {
 	font-weight: 800;
 }
 
-/* Stats Gallery */
+
+/* Prices Gallery */
 .stats {
 	color: #9FB59E;
 	margin-bottom: 5px;
@@ -154,43 +185,48 @@ ul li:hover a {
 	margin-left: 0px;
 	color: #9FB59E;
 }
-/* Parallax Section */
-.banner {
-	height: 450px;
+
+
+/* With Who? Section */
+.withwho {
 	background-color: #262626;
-	background-image: url("assets/hero06big.png");
-	background-attachment: fixed;
+	background-image: url("assets/greenhaus.png");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
-.parallax {
+.who {
 	color: #F1F2F2;
-	text-align: right;
+    background-color: transparent;
+	text-align: left;
 	padding-right: 100px;
 	padding-top: 110px;
 	letter-spacing: 2px;
-	margin-top: 0px;
+	margin-left: 40px;
 	font-weight: 800;
 }
-.parallax_description {
+.who_description {
 	color: #F1F2F2;
-	text-align: right;
+    background-color: transparent;
+	text-align: left;
 	padding-right: 100px;
-	width: 30%;
-	float: right;
+	width: 50%;
+	float: left;
 	font-weight: 600;
 	line-height: 23px;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	margin-left: 0px;
+	margin-left: 80px;
 }
-/* More info */
+
+
+/* Art */
 footer {
 	background-color: #262626;
 	padding-bottom: 35px;
 }
-.deathly {
+.artblock {
 	clear: both;
 	display: inline-block;
 	width: 100%;
@@ -289,7 +325,7 @@ footer .footer_column p {
 	padding-top: 60px;
 	padding-bottom: 60PX;
 	margin-bottom: 0px;
-	background-image: url(../../../../Program%20Files/Adobe/Adobe%20Dreamweaver%20CC%202019/configuration/BuiltIn/AppData/Roaming/Adobe/Dreamweaver%20CC%202019/en_US/Configuration/Temp/Assets/eam1D29.tmp/images/pattern.png);
+	background-image: url(assets/greenhaus.png);
 	background-repeat: repeat;
 }
 footer {
@@ -349,7 +385,7 @@ footer {
 		width: 100%;
 		margin-top: 0px;
 	}
-	.parallax {
+	.who {
 		text-align: center;
 		margin-top: 0px;
 		margin-right: 0px;
@@ -362,7 +398,7 @@ footer {
 		width: 100%;
 		font-size: 18px;
 	}
-	.parallax_description {
+	.who_description {
 		padding-top: 0px;
 		padding-right: 0px;
 		padding-bottom: 0px;
@@ -375,7 +411,7 @@ footer {
 		float: none;
 		text-align: center;
 	}
-	.banner {
+	.withwho {
 		height: 450px;
 		background-color: #262626;
 		background-image: url("assets/hero02.png");
@@ -456,7 +492,7 @@ footer {
 		width: 100%;
 		margin-top: 0px;
 	}
-	.parallax {
+	.who {
 		text-align: center;
 		margin-top: 0px;
 		margin-right: 0px;
@@ -469,7 +505,7 @@ footer {
 		width: 100%;
 		font-size: 18px;
 	}
-	.parallax_description {
+	.who_description {
 		padding-top: 0px;
 		padding-right: 0px;
 		padding-bottom: 0px;
@@ -488,7 +524,7 @@ footer {
 	.thumbnail2 {
 		width: 98%;
 	}
-	.parallax {
+	.who {
 		margin-top: 0px;
 		margin-right: 0px;
 		margin-bottom: 0px;
@@ -498,7 +534,7 @@ footer {
 		padding-left: 0px;
 		padding-top: 20%;
 	}
-	.parallax_description {
+	.who_description {
 		margin-top: 0px;
 		margin-right: 0px;
 		margin-bottom: 0px;
@@ -506,12 +542,12 @@ footer {
 		width: 100%;
 		padding-top: 30px;
 	}
-	.banner {
+	.withwho {
 		padding-left: 20px;
 		padding-right: 20px;
 		height: 450px;
 		background-color: #262626;
-		background-image: url("assets/hero02.png");
+		background-image: url("assets/greenhaus.png");
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -543,12 +579,12 @@ footer {
 		padding-bottom: 0px;
 		padding-left: 0px;
 	}
-	.banner {
+	.withwho {
 		margin-top: 0px;
 		padding-top: 0px;
 		height: 450px;
 		background-color: #262626;
-		background-image: url("assets/hero02.png");
+		background-image: url("assets/greenhaus.png");
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat: no-repeat;
