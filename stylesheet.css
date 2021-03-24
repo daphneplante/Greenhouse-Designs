@@ -65,7 +65,7 @@ nav {
 	width: 70%;
 	text-align: right;
 	margin-right: 25px;
-	
+
 }
 header nav ul {
 	list-style: none;
@@ -188,16 +188,8 @@ ul li:hover a {
 
 
 /* With Who? Section */
-.withwho {
-	background-color: #262626;
-	background-image: url("assets/greenhaus.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-.who {
+.withwho h2 {
 	color: #F1F2F2;
-    background-color: transparent;
 	text-align: left;
 	padding-right: 100px;
 	padding-top: 110px;
@@ -205,13 +197,10 @@ ul li:hover a {
 	margin-left: 40px;
 	font-weight: 800;
 }
-.who_description {
+.withwho p {
 	color: #F1F2F2;
-    background-color: transparent;
 	text-align: left;
-	padding-right: 100px;
-	width: 50%;
-	float: left;
+	width: 100%;
 	font-weight: 600;
 	line-height: 23px;
 	margin-top: 0px;
@@ -219,7 +208,13 @@ ul li:hover a {
 	margin-bottom: 0px;
 	margin-left: 80px;
 }
-
+.withwho {
+	background-color: #262626;
+	background-image: url("assets/greenhaus.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 
 /* Art */
 footer {
@@ -275,7 +270,7 @@ footer .footer_column p {
 	font-weight: lighter;
 	margin-left: 20px;
 	margin-right: 20px;
-	
+
 }
 .twitter {
 	display: block;
@@ -313,7 +308,7 @@ footer .footer_column p {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #445745;
+	background-color: #262626;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-weight: lighter;
@@ -321,11 +316,11 @@ footer .footer_column p {
 	border-top-width: 2px;
 }
 .footer_banner {
-	background-color: #5A735B;
+	width: 100%;
+	background-color: #262626;
 	padding-top: 60px;
 	padding-bottom: 60PX;
 	margin-bottom: 0px;
-	background-image: url(assets/greenhaus.png);
 	background-repeat: repeat;
 }
 footer {
@@ -355,7 +350,9 @@ footer {
 		width: 100%;
 		position: static;
 	}
-	/*header nav ul {
+	header nav ul {
+		padding: 0px;
+		float: none;
 	}
 	nav ul li {
 		margin-top: 0px;
@@ -364,7 +361,7 @@ footer {
 		margin-left: 0px;
 		width: 100%;
 		text-align: center;
-	}*/
+	}
 	.text_column {
 		width: 100%;
 		text-align: justify;
@@ -383,7 +380,7 @@ footer {
 		width: 100%;
 		margin-top: 0px;
 	}
-	.who {
+	.withwho h2 {
 		text-align: center;
 		margin-top: 0px;
 		margin-right: 0px;
@@ -396,7 +393,7 @@ footer {
 		width: 100%;
 		font-size: 18px;
 	}
-	.who_description {
+	.withwho p {
 		padding-top: 0px;
 		padding-right: 0px;
 		padding-bottom: 0px;
@@ -450,15 +447,15 @@ footer {
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}
-/*	.container header nav {
+	.container header nav {
 		margin-top: 0px;
 		margin-right: 0px;
-		margin-bottom: 50%;
+		margin-bottom: 5%;
 		margin-left: 0px;
 		width: 100%;
 		background: #262626;
 	}
-/*	header nav ul {
+	header nav ul {
 		padding: 0px;
 		float: none;
 	}
@@ -469,9 +466,9 @@ footer {
 		margin-left: 0px;
 		width: 100%;
 		text-align: center;
-		padding-top: 8px;
-		padding-bottom: 8px;
-	}*/
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
 	.text_column {
 		width: 100%;
 		text-align: left;
@@ -484,45 +481,9 @@ footer {
 		width: 100%;
 	}
 	.thumbnail2 {
-		width: 100%;
-	}
-	.footer_column {
-		width: 100%;
-		margin-top: 0px;
-	}
-	.who {
-		text-align: center;
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		padding-top: 40%;
-		padding-right: 0px;
-		padding-bottom: 0px;
-		padding-left: 0px;
-		width: 100%;
-		font-size: 18px;
-	}
-	.who_description {
-		padding-top: 0px;
-		padding-right: 0px;
-		padding-bottom: 0px;
-		padding-left: 0px;
-		margin-top: 30%;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		float: none;
-		width: 100%;
-		text-align: center;
-	}
-	.thumbnail {
-		width: 100%;
-	}
-	.thumbnail2 {
 		width: 98%;
 	}
-	.who {
+	.withwho h2 {
 		margin-top: 0px;
 		margin-right: 0px;
 		margin-bottom: 0px;
@@ -532,7 +493,7 @@ footer {
 		padding-left: 0px;
 		padding-top: 20%;
 	}
-	.who_description {
+	.withwho p {
 		margin-top: 0px;
 		margin-right: 0px;
 		margin-bottom: 0px;
