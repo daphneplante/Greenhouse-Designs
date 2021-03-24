@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Body */
+/* ----------------------------- Body ----------------------------- */
 body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #262626;
@@ -10,7 +10,7 @@ body {
 	font-style: normal;
 }
 
-/* Links */
+/* ----------------------------- Links ----------------------------- */
 a:link {
     color: #9FB59E;
     background-color: transparent;
@@ -33,7 +33,7 @@ a:active {
 }
 
 
-/* Container */
+/* ----------------------------- Container ----------------------------- */
 .container {
 	width: 90%;
 	margin-left: auto;
@@ -43,7 +43,7 @@ a:active {
 }
 
 
-/* Navigation */
+/* ----------------------------- Navigation ----------------------------- */
 header {
 	width: 100%;
 	height: 5%;
@@ -99,7 +99,7 @@ ul li:hover a {
 }
 
 
-/* Hero Section */
+/* ----------------------------- Hero Section ----------------------------- */
 .hero {
 	background-color: #262626;
 	background-image: url("assets/greenhaus.png");
@@ -124,7 +124,7 @@ ul li:hover a {
 }
 
 
-/* About Section */
+/* ----------------------------- About Section ----------------------------- */
 .text_column {
 	width: auto;
 	text-align: justify;
@@ -147,47 +147,7 @@ ul li:hover a {
 	font-weight: 800;
 }
 
-
-/* Prices Gallery */
-.stats {
-	color: #9FB59E;
-	margin-bottom: 5px;
-}
-.gallery {
-	clear: both;
-	display: inline-block;
-	width: 100%;
-	background-color: #262626;
-	/* [disabled]min-width: 400px;
-*/
-	padding-bottom: 35px;
-	padding-top: 0px;
-	margin-top: -5px;
-	margin-bottom: 0px;
-}
-.thumbnail {
-	width: 25%;
-	text-align: center;
-	float: left;
-	margin-top: 35px;
-}
-.gallery .thumbnail h4 {
-	margin-top: 5px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	margin-left: 5px;
-	color: #445745;
-}
-.gallery .thumbnail p {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	color: #9FB59E;
-}
-
-
-/* With Who? Section */
+/* ----------------------------- With Who? Section ----------------------------- */
 .withwho h2 {
 	color: #F1F2F2;
 	text-align: left;
@@ -226,8 +186,6 @@ footer {
 	display: inline-block;
 	width: 100%;
 	background-color: #262626;
-	/* [disabled]min-width: 400px;
-*/
 	padding-bottom: 35px;
 	padding-top: 0px;
 	margin-top: -5px;
@@ -332,7 +290,7 @@ footer {
 
 
 
-/* Mobile */
+/* ----------------------------- Mobile ----------------------------- */
 @media (max-width: 320px) {
 	.logo {
 		width: 100%;
@@ -431,7 +389,7 @@ footer {
 	}
 }
 
-/* Small Tablets */
+/* ----------------------------- Small Tablets ----------------------------- */
 @media (min-width: 321px)and (max-width: 767px) {
 	.logo {
 		width: 100%;
@@ -462,7 +420,7 @@ footer {
 	nav ul li {
 		margin-top: 0px;
 		margin-right: 0px;
-		margin-bottom: 0px;
+		margin-bottom: 10px;
 		margin-left: 0px;
 		width: 100%;
 		text-align: center;
@@ -516,7 +474,7 @@ footer {
 	}
 }
 
-/* Small Desktops */
+/* ----------------------------- Small Desktops ----------------------------- */
 @media (min-width: 768px) and (max-width: 1096px) {
 	.text_column {
 		width: 100%;
