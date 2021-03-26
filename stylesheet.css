@@ -199,6 +199,9 @@ a:active {
 .image {
 	display: flex;
 }
+.thumbnail {
+	width: 100%;
+}
 
 /* ----------------------------- Footer ----------------------------- */
 .copyright {
