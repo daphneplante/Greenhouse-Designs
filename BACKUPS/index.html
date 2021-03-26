@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Greenhouse Designs: Work</title>
+        <link rel="icon" href="assets/logo.png" type="image/gif" sizes="16x16">
+
+        <script language="JavaScript">
+            document.oncontextmenu =new Function("return false;")
+        </script>
+        <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script>
+            window.onload = function() {
+                filterSelection("all") // Execute the function and show all columns
+            };
+            
+            function filterSelection(c) {
+                var x, i;
+                x = document.getElementsByClassName("column");
+                if (c == "all") c = "";
+                // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+                for (i = 0; i < x.length; i++) {
+                    w3RemoveClass(x[i], "show");
+                    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                }
+            }
+
+            // Show filtered elements
+            function w3AddClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    if (arr1.indexOf(arr2[i]) == -1) {
+                    element.className += " " + arr2[i];
+                    }
+                }
+            }
+
+            // Hide elements that are not selected
+            function w3RemoveClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                    }
+                }
+            element.className = arr1.join(" ");
+            }
+
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("myBtnContainer");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function(){
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+            }
+        </script>
+
+        <style type="text/css">
+            @import url("stylesheet.css");
+            @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+        </style>
+
+    </head>
+
+<!-- Main Container -->
+    <body onselectstart="return false">
+        <div class="container">
+<!-- Navigation -->
+            <header>
+                <a href="">
+                    <h4 class="logo">GREENHOUSE</h4>
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="commissioners.html">clients</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+<!-- Hero Section -->
+            <div class="hero">
+                <h2 class="hero_header">WHERE IDEAS COME TO <span class="light">BLOOM</span></h2>
+                <p class="tagline"></p>
+            </div>
+
+<!-- About Section -->
+            <section class="about" id="about">
+                <p class="text_column">
+                My name is Daphne Plante, and I am a multimedia artist. I completed my BFA in Graphic Design, specializing in motion graphics, but my skill set is broad and ever growing as I find new interests. For example, I coded this website.<br><br>
+                This site is here for you to see what I offer in the form of commissions! Don't see something here, don't hesitate to ask.<br><br>
+                If you are interested in commissioning me, <a href="https://forms.gle/M6TYoAk6Fs5b99yj7">fill out this form on Google</a> and I'll get back to you soon!</p>
+            </section>
+            
+<!-- Filter -->
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn" onclick="filterSelection('animation')"> Animation</button>
+                <button class="btn" onclick="filterSelection('logo')"> Logo</button>
+                <button class="btn" onclick="filterSelection('design')"> Design</button>
+                <button class="btn" onclick="filterSelection('emote')"> Emote</button>
+            </div>
+
+<!-- Art Block Section -->
+            <div class="row">
+                <div class="column logo">
+                    <div class="content">
+                        <img src="assets/logo - deathly.png" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+                <div class="column logo">
+                    <div class="content">
+                        <img src="assets/logo - nate.png" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+                <div class="column logo">
+                    <div class="content">
+                        <img src="assets/logo - dend.png" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+                <div class="column logo">
+                    <div class="content">
+                        <img src="assets/logo - 30 day.png" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+                <div class="column logo">
+                    <div class="content">
+                        <img src="assets/littleyet1.png" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+                <div class="column logo">
+                    <div class="content">
+                        <img src="assets/kamisguide.png" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+                <div class="column emote">
+                    <div class="content">
+                        <img src="assets/emotes - deathly.png" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+                <div class="column emote">
+                    <div class="content">
+                        <img src="assets/emotes - nate.png" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+                <div class="column emote">
+                    <div class="content">
+                        <img src="assets/soccerboycoop - 4emotes.png" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+                <div class="column emote">
+                    <div class="content">
+                        <img src="assets/sub badges  - deathly.png" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+                <div class="column design">
+                    <div class="content">
+                        <img src="assets/layouts - deathly.png" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+                <div class="column design">
+                    <div class="content">
+                        <img src="assets/info cards - deathly.png" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+                <div class="column animation">
+                    <div class="content">
+                        <img src="assets/DeathlyBitBoss.gif" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+                <div class="column animation">
+                    <div class="content">
+                        <img src="assets/aDriveBitBoss.gif" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+                <div class="column animation">
+                    <div class="content">
+                        <img src="assets/bitboss - soccerboycoop.gif" alt="" style="width:100%" ondragstart="return false;"/>
+                    </div>
+                </div>
+            <!-- END GRID -->
+            
+
+<!-- Copyrights Section -->
+            <div class="copyright">
+                &copy;2021 - <strong>Daphne Plante / Greenhouse Designs</strong>
+            </div>
+        </div>
+	</body>
+<!-- Main Container Ends -->
+</html>
