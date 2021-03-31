@@ -1,225 +1,159 @@
 @charset "UTF-8";
 /* ----------------------------- Body ----------------------------- */
-body {
-	font-family: 'Open Sans', sans-serif;
-	background-color: #262626;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	font-style: normal;
+	body {
+		font-family: 'Open Sans', sans-serif;
+		background-color: #262626;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		font-style: normal;
+	}
+	p {
+		width: auto;
+		text-align: justify;
+		font-weight: lighter;
+		line-height: 20px;
+		padding-left: 15%;
+		padding-right: 15%;
+		color: #F1F2F2;
 }
 
 /* ----------------------------- Main Page Container ----------------------------- */
-.container {
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #262626;
+	.container {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #262626;
 }
 
 /* ----------------------------- Navigation ----------------------------- */
-header {
-	width: 100%;
-	height: 5%;
-	background-color: #262626;
-	border-bottom: 1px solid #F1F2F2;
-}
-.logo {
-	color: #F1F2F2;
-	font-weight: 800;
-	text-align: center;
-	width: 10%;
-	float: left;
-	margin-top: 15px;
-	margin-left: 25px;
-	letter-spacing: 4px;
-}
-nav {
-	float: right;
-	width: 70%;
-	text-align: right;
-	margin-right: 25px;
-}
-header nav ul {
-	list-style: none;
-	float: right;
-}
-nav ul li {
-	float: left;
-	color: #F1F2F2;
-	font-size: 14px;
-	text-align: left;
-	margin-right: 25px;
-	letter-spacing: 2px;
-	font-weight: bold;
-	transition: all 0.3s linear;
-}
-ul li a {
-	color: #5A735B;
-	text-decoration: none;
-}
-ul li:hover a {
-	color: #F1F2F2;
-}
-.hero_header {
-	color: #F1F2F2;
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	letter-spacing: 4px;
+	header {
+		width: 100%;
+		height: 5%;
+		background-color: #262626;
+		border-bottom: 1px solid #F1F2F2;
+	}
+	header h4 {
+		color: #F1F2F2;
+		font-weight: 800;
+		text-align: center;
+		width: 10%;
+		float: left;
+		margin-top: 15px;
+		margin-left: 25px;
+		letter-spacing: 4px;
+	}
+	header nav {
+		float: right;
+		width: 70%;
+		text-align: right;
+		margin-right: 25px;
+	}
+	header nav ul {
+		list-style: none;
+		float: right;
+	}
+	header nav ul li {
+		float: left;
+		color: #F1F2F2;
+		font-size: 14px;
+		text-align: left;
+		margin-right: 25px;
+		letter-spacing: 2px;
+		font-weight: bold;
+		transition: all 0.3s linear;
 }
 
 /* ----------------------------- Links ----------------------------- */
-a:link {
-    color: #9FB59E;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:visited {
-    color: #9FB59E;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:hover {
-    color: #5A735B;
-    background-color: transparent;
-    text-decoration: underline;
-}
-a:active {
-    color: #F1F2F2;
-    background-color: transparent;
-    text-decoration: underline;
+	a:link {
+		color: #9FB59E;
+		background-color: transparent;
+		text-decoration: none;
+	}
+	a:visited {
+		color: #9FB59E;
+		background-color: transparent;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #CCCC70;
+		background-color: transparent;
+		text-decoration: underline;
+	}
+	a:active {
+		color: #F1F2F2;
+		background-color: transparent;
+		text-decoration: underline;
 }
 
 /* ----------------------------- Hero Section ----------------------------- */
-.hero {
-	background-color: #262626;
-	background-image: url("assets/greenhaus.png");
-	weight: 800;
-	padding-top: 150px;
-	padding-bottom: 150px;
-	background-size: auto;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	clear: both;
+	.hero {
+		background-color: #262626;
+		background-image: url("assets2/hero.png");
+		padding-top: 150px;
+		padding-bottom: 150px;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		clear: both;
+	}
+	.hero h2 {
+		color: #9FB59E;
+		text-align: center;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		letter-spacing: 4px;
+	}
+	.hero .light {
+		color: #CCCC70;
 }
-.light {
-	font-weight: bold;
-	color: #262626;
-}
-.tagline {
-	text-align: center;
-	color: #9FB59E;
-	margin-top: 4px;
-	font-weight: lighter;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}
-
 
 /* ----------------------------- About Section ----------------------------- */
-.text_column {
-	width: auto;
-	text-align: justify;
-	font-weight: lighter;
-	line-height: 25px;
-	padding-left: 15%;
-	padding-right: 15%;
-	color: #F1F2F2;
-}
-.about {
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 15px;
-	background-color: #262626;
-}
-.about h2{
-	text-align: center;
-	color: #5A735B;
-	letter-spacing: 5px;
-	font-weight: 800;
+	.about {
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-top: 15px;
+		background-color: #262626;
+	}
+	.portrait {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 }
 
-/* ----------------------------- With Who? Section ----------------------------- */
-.withwho h2 {
-	color: #F1F2F2;
-	text-align: left;
-	letter-spacing: 2px;
-	font-weight: 800;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-top: 10%;
-}
-.withwho p {
-	color: #F1F2F2;
-	text-align: left;
-	font-weight: 600;
-	line-height: 23px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 5%;
-}
-.withwho {
-	padding: 50px;
-	background-color: #262626;
-	background-image: url("assets/greenhaus.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	clear: both;
-}
-
-/* ----------------------------- Art ----------------------------- */
-/*.gallery {
-	background-color: transparent;
-	margin-top: 50px;
-	margin-right: auto;
-	margin-left: auto;
-}
-.image {
-	width: 48%;
-	padding: 5px;
-	display: inline-block;
-
-}*/
-.gallery {
-	background-color: transparent;
-}
-.image {
-	display: flex;
-}
-.thumbnail {
-	width: 100%;
+/* ----------------------------- Form ----------------------------- */
+	.form {
+		background-image: url("assets2/hero.png");
+		background-repeat: repeat-y;
+		background-size: 100%;
+	}
+	iframe {
+		display: block;
+		background-size: contain;
+		margin-left: auto;
+		margin-right: auto;
 }
 
 /* ----------------------------- Footer ----------------------------- */
-.copyright {
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: #262626;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	font-weight: lighter;
-	letter-spacing: 2px;
-	border-top-width: 2px;
-	clear: both;
+	.copyright {
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: #262626;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		font-weight: lighter;
+		letter-spacing: 2px;
+		border-top-width: 2px;
+		clear: both;
 }
 
 /* ----------------------------- Other ----------------------------- */
-.hidden {
-	display: none;
+	.hidden {
+		display: none;
 }
 
 /* ------------------------------------------------------------------ */
@@ -227,197 +161,13 @@ a:active {
 /* ------------------------------------------------------------------ */
 /* ----------------------------- Mobile ----------------------------- */
 /* ------------------------------------------------------------------ */
-
-@media (max-width: 320px) {
-	.logo {
-		width: 100%;
-		text-align: center;
-		margin-top: 13px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-	}
-	.container header nav {
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		width: 100%;
-		position: static;
-	}
-	header nav ul {
-		padding: 0px;
-		float: none;
-	}
-	nav ul li {
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		width: 100%;
-		text-align: center;
-	}
-	.text_column {
-		width: 100%;
-		text-align: justify;
-		padding-top: 0px;
-		padding-right: 0px;
-		padding-bottom: 0px;
-		padding-left: 0px;
-	}
-	.withwho h2 {
-		text-align: center;
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		padding-top: 40%;
-		padding-right: 0px;
-		padding-bottom: 0px;
-		padding-left: 0px;
-		width: 100%;
-		font-size: 18px;
-	}
-	.withwho p {
-		padding-top: 0px;
-		padding-right: 0px;
-		padding-bottom: 0px;
-		padding-left: 0px;
-		width: 90%;
-		margin-top: 25px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 12px;
-		float: none;
-		text-align: center;
-	}
-	.withwho {
-		height: 450px;
-		background-color: #262626;
-		background-image: url("assets/hero02.png");
-		background-attachment: fixed;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	.tagline {
-		margin-top: 20px;
-		line-height: 22px;
-	}
-	.hero_header {
-		padding-left: 10px;
-		padding-right: 10px;
-		line-height: 22px;
-		text-align: center;
-	}
-	.hero {
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-	}
+	@media (max-width: 320px) {
 }
 
 /* ----------------------------- Small Tablets ----------------------------- */
-@media (min-width: 321px)and (max-width: 767px) {
-	.logo {
-		width: 100%;
-		text-align: center;
-		margin-top: 13px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		color: #F1F2F2;
-	}
-	.hero {
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-	}
-	.container header nav {
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 10px;
-		margin-left: 0px;
-		width: 100%;
-		background: #262626;
-	}
-	header nav ul {
-		padding: 0px;
-		float: none;
-	}
-	nav ul li {
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		width: 100%;
-		text-align: center;
-		padding-top: 0px;
-		padding-bottom: 0px;
-	}
-	.text_column {
-		width: 100%;
-		text-align: left;
-		padding-top: 0px;
-		padding-right: 0px;
-		padding-bottom: 0px;
-		padding-left: 0px;
-	}
-	.withwho h2 {
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		padding-right: 0px;
-		padding-bottom: 0px;
-		padding-left: 0px;
-		padding-top: 20%;
-	}
-	.withwho p {
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		width: 100%;
-		padding-top: 30px;
-	}
-	.withwho {
-		padding-left: 20px;
-		padding-right: 20px;
-		height: 450px;
-		background-color: #262626;
-		background-image: url("assets/greenhaus.png");
-		background-attachment: fixed;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
+	@media (min-width: 321px)and (max-width: 767px) {
 }
 
 /* ----------------------------- Small Desktops ----------------------------- */
-@media (min-width: 768px) and (max-width: 1096px) {
-	.text_column {
-		width: 100%;
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		padding-top: 0px;
-		padding-right: 0px;
-		padding-bottom: 0px;
-		padding-left: 0px;
-	}
-	.withwho {
-		margin-top: 0px;
-		padding-top: 0px;
-		height: 450px;
-		background-color: #262626;
-		background-image: url("assets/greenhaus.png");
-		background-attachment: fixed;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	.hero {
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-	}
+	@media (min-width: 768px) and (max-width: 1096px) {
 }
