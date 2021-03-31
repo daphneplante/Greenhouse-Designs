@@ -94,7 +94,7 @@
 		padding-top: 150px;
 		padding-bottom: 150px;
 		background-size: 100%;
-		background-repeat: no-repeat;
+		background-repeat: repeat-y;
 		background-attachment: fixed;
 		clear: both;
 	}
