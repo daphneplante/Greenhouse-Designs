@@ -112,6 +112,9 @@
 		margin-right: auto;
 		overflow: hidden;
 	}
+	.thumbnail {
+		width: 50%;
+	}
 
 /* ----------------------------- About Section ----------------------------- */
 	.about {
