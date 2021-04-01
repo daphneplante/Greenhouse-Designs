@@ -103,6 +103,9 @@
 	.hero .light {
 		color: #CCCC70;
 }
+	.hero p {
+		text-align: center;
+	}
 
 /* ----------------------------- Art Section ----------------------------- */
 	.art {
@@ -135,7 +138,7 @@
 		background-repeat: repeat-y;
 		background-size: 100%;
 	}
-	form iframe {
+	iframe {
 		display: block;
 		background-size: contain;
 		margin-left: auto;
