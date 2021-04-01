@@ -112,9 +112,6 @@
 		margin-right: auto;
 		overflow: hidden;
 	}
-	.thumbnail {
-		width: 50%;
-	}
 
 /* ----------------------------- About Section ----------------------------- */
 	.about {
@@ -135,7 +132,7 @@
 		background-repeat: repeat-y;
 		background-size: 100%;
 	}
-	iframe {
+	form iframe {
 		display: block;
 		background-size: contain;
 		margin-left: auto;
