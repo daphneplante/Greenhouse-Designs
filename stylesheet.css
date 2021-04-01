@@ -126,11 +126,12 @@
 		padding-top: 15px;
 		background-color: #262626;
 	}
-	.portrait {
+	.about img {
+		width: 400px;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-}
+	}	
 
 /* ----------------------------- Form ----------------------------- */
 	.form {
@@ -197,6 +198,12 @@
 			width: 100%;
 			margin-left: 0px;
 		}
+		.about img {
+			width: 100%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}	
 }
 
 /* ----------------------------- Small Tablets ----------------------------- */
@@ -230,6 +237,12 @@
 			width: 100%;
 			margin-left: 0px;
 		}
+		.about img {
+			width: 60%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}	
 }
 
 /* ----------------------------- Small Desktops ----------------------------- */
@@ -237,4 +250,10 @@
 		.thumbnail {
 			width: 100%;
 		}
+		.about img {
+			width: 50%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}	
 }
